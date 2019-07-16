@@ -17,8 +17,41 @@
 
 .navbar-list .nav-item:hover {
   background-color: #41a2eb;
-  cursor: po  inter;
+  cursor: pointer;
 }
 
 section.dtn-left {
+}
+.dtn-main {
+  margin-top: 12px;
+}
+/* Tieu diem */
+.dtn-tieudiem {
+  border-bottom: 1px solid #e53f3f;
+  margin-bottom: 10px;
+}
+.dtn-tieudiem-icon {
+  padding-left: 5px;
+}
+.dtn-tieudiem-content {
+  padding-top: 10px;
+  padding-left: 13px;
+}
+
+.dtn-tieudiem-content .dtn-tieudiem-title {
+  font-size: 15px;
+  margin: auto;
+  font-weight: 600;
+}
+.dtn-tieudiem-content .dtn-tieudiem-text {
+  font-size: 15px;
+  font-weight: 400;
+  color: #e53f3f;
+}
+/* Major news */
+.dtn-major-news-content {
+  background-color: #ebebeb;
+}
+.dtn-major-news {
+  border: none !important;
 }
