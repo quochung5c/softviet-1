@@ -1,0 +1,24 @@
+.dtn-navbar {
+  background-color: #0058c0;
+}
+
+.dtn-navbar .navbar-list {
+  justify-content: space-around;
+}
+
+.navbar-list .nav-item {
+  font-size: 15px;
+  padding: 14px 12px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  color: #dde4f3;
+}
+
+.navbar-list .nav-item:hover {
+  background-color: #41a2eb;
+  cursor: po  inter;
+}
+
+section.dtn-left {
+}
