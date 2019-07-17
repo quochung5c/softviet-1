@@ -1,13 +1,33 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Roboto"), local("Roboto-Regular"),
+    url(./fonts/Roboto-Regular.ttf) format("ttf");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+/* Image header */
+.image-header {
+  padding: 0;
+}
+/* Navbar */
 .dtn-navbar {
   background-color: #0058c0;
+  padding: 0;
+}
+
+.dtn-navbar-content {
+  padding: 0 !important;
 }
 
 .dtn-navbar .navbar-list {
-  justify-content: space-around;
+  list-style-type: none;
 }
 
 .navbar-list .nav-item {
-  font-size: 15px;
+  font-size: 0.8em;
   padding: 14px 12px;
   font-weight: 400;
   text-align: center;
@@ -21,6 +41,7 @@
 }
 
 section.dtn-left {
+  padding: 0;
 }
 .dtn-main {
   margin-top: 12px;
@@ -51,7 +72,101 @@ section.dtn-left {
 /* Major news */
 .dtn-major-news-content {
   background-color: #ebebeb;
+  padding-top: 15px;
+  padding-left: 20px;
 }
 .dtn-major-news {
   border: none !important;
+}
+.dtn-major-views-counter {
+  margin-left: 30px;
+}
+.dtn-major-news-date {
+  font-size: 13px;
+}
+.dtn-major-news-title {
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0;
+}
+.dtn-major-news-desc {
+  font-size: 14px;
+}
+.carousel-control-prev.next-slide {
+  left: 90%;
+  top: 3.5%;
+  bottom: 90;
+}
+
+.carousel-control-next.prev-slide {
+  top: 3.5%;
+  right: 2%;
+}
+
+.carousel-control-next.prev-slide,
+.carousel-control-prev.next-slide {
+  opacity: 1;
+  height: 4%;
+  width: 3%;
+}
+/* Doi thoai */
+.dtn-doithoai {
+  margin-top: 20px;
+}
+.dtn-doithoai-main {
+  margin: 15px 0px 0px 0px !important;
+  width: 100%;
+}
+.dtn-doithoai-banner {
+  width: 100%;
+}
+.dtn-doithoai-major-image {
+  position: relative;
+  padding-right: 0;
+}
+.dtn-doithoai-major-image .dtn-badge-title {
+  position: absolute;
+  top: 5%;
+  left: 2%;
+}
+
+.dtn-doithoai-major-content {
+  padding: 0;
+  background-color: #e9f5ff;
+}
+
+.dtn-doithoai-major-content .dtn-doithoai-major-text {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+}
+
+.dtn-badge-text {
+  position: absolute;
+  font-size: 16px;
+  top: 10%;
+  color: white;
+  left: 5%;
+}
+
+.dtn-doithoai-major-title {
+  font-size: 15px;
+  font-weight: 600;
+}
+.dtn-doithoai-major-time {
+  font-size: 13px;
+}
+.dtn-doithoai-major-desc {
+  font-size: 13px;
+}
+.dtn-doithoai-sub-card {
+  width: 100%;
+  border: none;
+}
+.dtn-doithoai-sub-content {
+  display: flex;
+  justify-content: space-around;
+}
+.dtn-doithoai-sub-card .dtn-doithoai-sub-image {
+  padding: 10px;
 }
