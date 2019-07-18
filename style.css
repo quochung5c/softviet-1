@@ -110,24 +110,33 @@ section.dtn-left {
   width: 3%;
 }
 /* Doi thoai */
+.dtn-doithoai,
+.dtn-ct3 {
+  border: 1px solid gainsboro;
+  margin-bottom: 20px;
+}
 .dtn-doithoai {
   margin-top: 20px;
 }
+.dtn-doithoai-main,
+.dtn-ct3-main {
+  margin: 0 !important;
+  width: 100%;
+}
 .dtn-doithoai-main {
   margin: 15px 0px 0px 0px !important;
-  width: 100%;
 }
 .dtn-doithoai-banner {
   width: 100%;
 }
 .dtn-doithoai-major-image {
   position: relative;
-  padding-right: 0;
+  padding: 0;
 }
 .dtn-doithoai-major-image .dtn-badge-title {
   position: absolute;
   top: 5%;
-  left: 2%;
+  margin-left: -2px;
 }
 
 .dtn-doithoai-major-content {
@@ -144,9 +153,10 @@ section.dtn-left {
 .dtn-badge-text {
   position: absolute;
   font-size: 16px;
-  top: 10%;
+  top: 15%;
   color: white;
   left: 5%;
+  text-transform: uppercase;
 }
 
 .dtn-doithoai-major-title {
@@ -169,4 +179,53 @@ section.dtn-left {
 }
 .dtn-doithoai-sub-card .dtn-doithoai-sub-image {
   padding: 10px;
+}
+
+/* Sub content */
+.dtn-doithoai-sub-body {
+  padding-top: 6px;
+}
+.dtn-doithoai-sub-title {
+  font-weight: 400;
+  display: -webkit-box;
+  max-width: 150px;
+  margin: 0 auto;
+  font-size: 14px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+}
+
+.dtn-doithoai-sub-text {
+  color: #969696;
+  font-size: 12px;
+}
+/* Chuong trinh ba */
+.chuong-trinh-ba {
+  background: url("./images/title-badge.png");
+}
+
+.dtn-ct3-sub-content {
+  margin-top: 20px;
+}
+.dtn-ct3-sub-navs {
+  margin-left: 10px;
+}
+.dtn-ct3-nav-link {
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #41a2eb;
+  text-decoration: underline;
+}
+.dtn-ct3-nav-link.active {
+  color: #41a2eb !important;
+  border: 1px solid #41a2eb !important;
+  background-color: white !important;
+  text-decoration: none;
+}
+.dtn-ct3-sub-nav-item {
+  margin-right: 15px;
 }
