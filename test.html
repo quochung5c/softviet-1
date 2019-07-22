@@ -7,34 +7,30 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
   </head>
-
+  <style>
+    #pacman {
+      width: 0px;
+      height: 0px;
+      border-right: 30px solid transparent;
+      border-top: 30px solid red;
+      border-left: 30px solid red;
+      border-bottom: 30px solid red;
+      /* border-top-left-radius: 60px;
+      border-top-right-radius: 60px;
+      border-bottom-left-radius: 60px;
+      border-bottom-right-radius: 60px; */
+    }
+    .pacman-text {
+      background: red;
+      padding-left: 10px;
+      padding-top: .8em;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-section">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav navbar-list">
-          <li class="nav-item active">
-            Home
-          </li>
-          <li class="nav-item">
-            Features
-          </li>
-          <li class="nav-item">
-            Pricing
-          </li>
-        </ul>
-      </div>
-    </nav>
+
+
     <script src="./assets/js/jquery-3.4.1.slim.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
   </body>

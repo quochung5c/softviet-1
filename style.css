@@ -49,6 +49,7 @@ section.dtn-left {
 /* Tieu diem */
 .dtn-tieudiem {
   border-bottom: 1px solid #e53f3f;
+  width: 100%;
   margin-bottom: 10px;
 }
 .dtn-tieudiem-icon {
@@ -114,14 +115,17 @@ section.dtn-left {
 .dtn-ct3 {
   border: 1px solid gainsboro;
   margin-bottom: 20px;
+  background-color: white;
 }
 .dtn-doithoai {
   margin-top: 20px;
 }
 .dtn-doithoai-main,
-.dtn-ct3-main {
+.dtn-ct3-main,
+.dtn-xdd-main {
   margin: 0 !important;
   width: 100%;
+  position: relative;
 }
 .dtn-doithoai-main {
   margin: 15px 0px 0px 0px !important;
@@ -228,4 +232,231 @@ section.dtn-left {
 }
 .dtn-ct3-sub-nav-item {
   margin-right: 15px;
+}
+
+/* badge */
+.badge-border {
+  width: 0px;
+  height: 0px;
+  border-left: 15px solid #41a2eb;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #41a2eb;
+  border-bottom: 15px solid #41a2eb;
+}
+.badge-xdd-border {
+  width: 0px;
+  height: 0px;
+
+  border-left: 15px solid #d71a1a;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #d71a1a;
+  border-bottom: 15px solid #d71a1a;
+}
+.dtn-badge-xx {
+  min-width: 70px;
+  background-color: #41a2eb;
+  padding-left: 20px;
+  padding-top: 6px;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.dtn-badge {
+  margin-left: -5px;
+  position: absolute;
+  top: 5%;
+  z-index: 1000;
+}
+/* Xay dung doan */
+.dtn-xdd-major-desc {
+  line-height: 26px;
+  font-weight: 400;
+  display: -webkit-box;
+  margin: 0 auto;
+  font-size: 13px;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+  color: #8c8c8c;
+}
+
+.dtn-xdd-major-title {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.dtn-xdd-major-content {
+}
+
+.dtn-xdd-major-title {
+  margin-bottom: 0.1rem;
+}
+
+.dtn-xdd-major-text {
+  padding-top: 12px;
+}
+
+.dtn-doithoai-major-time {
+  font-size: 12px;
+}
+
+.dtn-xdd-major-desc {
+  padding-top: 10px;
+}
+
+.dtn-xdd-badge {
+  margin-left: -5px;
+  position: absolute;
+  top: 3%;
+  z-index: 1000;
+}
+.dtn-xdd-sub-content {
+  background-color: #d71a1a;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  padding: 10px 0px 8px 0px;
+  border-left: 1px solid gainsboro;
+}
+.dtn-xdd-sub-body {
+  padding-bottom: 0;
+  padding-top: 5px;
+}
+
+.dtn-xdd-sub-image {
+  width: 169px;
+  padding: 10px 0px 0px 10px;
+  height: 100px;
+}
+.dtn-xdd-sub-title {
+  font-weight: 400;
+  display: -webkit-box;
+  max-width: 150px;
+  margin: 0 auto;
+  font-size: 14px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dtn-xdd-sub-card {
+  background-color: #d71a1a;
+  color: white;
+  border: none;
+}
+
+.dtn-xdd-sub-text {
+  color: white;
+  font-size: 12px;
+}
+
+.dtn-button {
+  padding-top: 10px;
+  font-size: 12px;
+  border-radius: 10px;
+  background-color: white;
+  padding-bottom: 8px;
+  padding-right: 12px;
+  padding-left: 8px;
+}
+
+.dtn-button-bold {
+  font-weight: 600;
+  margin: 0;
+}
+
+.dtn-button-icon {
+  width: 31px;
+  margin-top: 5px;
+  margin-right: 8px;
+}
+
+.dtn-button-text {
+  text-align: left;
+}
+/* Set button color */
+.dtn-button-lct {
+  border: 1px solid #1c9cc7;
+  background: linear-gradient(#32a7e6, #74eff7);
+}
+
+.dtn-button-vb {
+  border: 1px solid #f2be4e;
+  background: linear-gradient(#ecd266, #fbf6a7);
+}
+
+.dtn-button-vp {
+  border: 1px solid #82eb66;
+  background: linear-gradient(#70ec9d, #c7fbb1);
+}
+
+.button-group {
+  margin-bottom: 14px;
+}
+
+/* news navs */
+.dtn-news-navs {
+  background-color: #359ae5;
+  padding-left: 16px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+}
+
+.dtn-news-tab-list {
+  border: none;
+}
+.dtn-news-tab-link {
+  color: white;
+  background: #359ae5;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.dtn-news-tab-link:hover {
+  border: none;
+  color: white;
+}
+.dtn-news-tab-link.active {
+  background-color: #d71a1a !important;
+  color: white !important;
+  border: none;
+}
+
+.dtn-news-card-image {
+  border: 1.5px solid white;
+}
+
+.dtn-news-content {
+  margin-top: 10px;
+}
+
+.dtn-news-card {
+  margin-bottom: 14px;
+  padding-right: 15px;
+}
+
+.dtn-card-text {
+  padding: 0;
+}
+
+.dtn-card-title {
+  font-size: 13px;
+  color: gainsboro;
+  padding-bottom: 6px;
+}
+.dtn-card-time {
+  font-style: italic;
+  font-size: 12px;
+  color: gainsboro;
+}
+/* Videos */
+.dtn-videos {
+  margin-top: 10px;
+}
+
+.dtn-videos-link.active {
+  background-color: rgba(255, 255, 255,0.25) !important;
 }
