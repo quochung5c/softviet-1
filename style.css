@@ -8,6 +8,7 @@
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
     U+FE2E-FE2F;
 }
+
 /* Image header */
 .image-header {
   padding: 0;
@@ -56,8 +57,7 @@ section.dtn-left {
   padding-left: 5px;
 }
 .dtn-tieudiem-content {
-  padding-top: 10px;
-  padding-left: 13px;
+  padding: 0;
 }
 
 .dtn-tieudiem-content .dtn-tieudiem-title {
@@ -352,13 +352,12 @@ section.dtn-left {
 }
 
 .dtn-button {
-  padding-top: 10px;
+  padding-top: 4px;
   font-size: 12px;
   border-radius: 10px;
-  background-color: white;
-  padding-bottom: 8px;
-  padding-right: 12px;
-  padding-left: 8px;
+  padding-bottom: 4px;
+  padding-right: 8px;
+  padding-left: 4px;
 }
 
 .dtn-button-bold {
@@ -402,8 +401,19 @@ section.dtn-left {
   padding-right: 12px;
   padding-bottom: 8px;
 }
+.toogle-nav {
+  position: absolute;
+  top: 10%;
+  right: 0;
+}
+
+.toogle-nav img {
+  width: 10px;
+  cursor: pointer;
+}
 
 .dtn-news-tab-list {
+  position: relative;
   border: none;
 }
 .dtn-news-tab-link {
@@ -445,7 +455,7 @@ section.dtn-left {
 .dtn-card-title {
   font-size: 13px;
   color: gainsboro;
-  padding-bottom: 6px;
+  padding-bottom: 2px;
 }
 .dtn-card-time {
   font-style: italic;
@@ -454,7 +464,7 @@ section.dtn-left {
 }
 /* Videos */
 .dtn-videos {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .dtn-videos-link.active {
@@ -495,7 +505,20 @@ section.dtn-left {
   left: 40%;
   cursor: pointer;
 }
+.dtn-videos-sub-play {
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  cursor: pointer;
+  width: 30%;
+}
 
+.dtn-card-views {
+  font-size: 12px;
+  padding-top: 2px;
+  color: gainsboro;
+  font-style: italic;
+}
 .dtn-videos-vd-description {
   background: linear-gradient(transparent, black);
   position: absolute;
@@ -519,7 +542,7 @@ section.dtn-left {
   padding-bottom: 10px;
   background: #1b81cd;
 }
-
+/* Pagination circle */
 .circle {
   cursor: pointer;
   width: 10px;
@@ -535,4 +558,84 @@ section.dtn-left {
   background: #005ea4;
   border: 1px solid white;
   border-radius: 50%;
+}
+/* Form */
+.dtn-form {
+  background-color: white;
+  margin-top: 20px;
+  padding: 10px;
+}
+.dtn-form-component {
+  font-size: 14px;
+}
+
+.dtn-form-submit {
+  width: 100%;
+  text-align: center;
+  background-color: #bebebe;
+  border: none;
+  font-size: 14px;
+}
+/* Gallery */
+.dtn-gallery {
+  margin-top: 20px;
+  position: relative;
+}
+/* Events */
+.dtn-events {
+  margin-top: 20px;
+}
+
+/* Footer */
+.dtn-footer {
+  border-top: 1px solid gainsboro;
+  margin-top: 30px;
+  font-size: 14px;
+  background: white;
+}
+.footer-column {
+  padding: 10px;
+  text-align: left;
+}
+
+.footer-title,
+.footer-item {
+  padding: 6px;
+}
+
+.footer-title {
+  font-weight: 600;
+}
+
+.list-of-footer li {
+  list-style-type: none;
+}
+
+.footer-title a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Footer for contact */
+.footer-contact {
+  padding-top: 15px;
+  background: linear-gradient(#0d85e0, #71bbf2);
+  color: white;
+  font-size: 14px;
+}
+.right-align {
+  text-align: right;
+}
+
+.footer-media {
+  text-align: center;
+  font-style: italic;
+  font-weight: 600;
+  color: black !important;
+  padding-bottom: 10px;
+}
+
+.footer-social img {
+  width: 35px;
+  margin-right: 10px;
 }
